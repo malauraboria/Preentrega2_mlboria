@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function Turno(nombre, turno) {
     this.nombre = nombre;
     this.turno = turno;
@@ -31,7 +30,7 @@ for (let turno = 1; turno <= 10; turno++) {
 let turnosAceptados = listaDeTurnos.filter(turno => turno.nombre !== undefined);
 
 console.log("Turnos aceptados:");
-=======
+
 function Turno(nombre, turno) {
     this.nombre = nombre;
     this.turno = turno;
@@ -64,5 +63,4 @@ for (let turno = 1; turno <= 10; turno++) {
 let turnosAceptados = listaDeTurnos.filter(turno => turno.nombre !== undefined);
 
 console.log("Turnos aceptados:");
->>>>>>> 53b3871c51b9f081d6d2e49e21122383771e56a5
 console.log(turnosAceptados);
